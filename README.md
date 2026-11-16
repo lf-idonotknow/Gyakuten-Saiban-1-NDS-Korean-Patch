@@ -1,8 +1,12 @@
-# 역전재판 소생하는 역전 한국어 패치 0.9.0
+# 역전재판 소생하는 역전 한국어 패치 0.9.1
 
-《역전재판 소생하는 역전》 <strong>Nintendo DS 일본판</strong>의 비공식 한국어 패치입니다. <strong>0.9.0은 첫 공개판</strong>입니다.
+《역전재판 소생하는 역전》 <strong>Nintendo DS 일본판</strong>의 비공식 한국어 패치입니다. 0.9.1은 초반 설명 대사의 표시 오류를 수정한 버전입니다.
 
-<strong>[0.9.0 패치 ZIP 다운로드](https://github.com/lf-idonotknow/Gyakuten-Saiban-1-NDS-Korean-Patch/releases/download/v0.9.0/Gyakuten-Saiban-1-NDS-Korean-Patch-v0.9.0.zip)</strong> · <strong>[처음 하는 분을 위한 적용 안내](docs/APPLY.md)</strong> · <strong>[오류·번역 제보](https://github.com/lf-idonotknow/Gyakuten-Saiban-1-NDS-Korean-Patch/issues/new/choose)</strong>
+<strong>[0.9.1 패치 ZIP 다운로드](https://github.com/lf-idonotknow/Gyakuten-Saiban-1-NDS-Korean-Patch/releases/download/v0.9.1/Gyakuten-Saiban-1-NDS-Korean-Patch-v0.9.1.zip)</strong> · <strong>[처음 하는 분을 위한 적용 안내](docs/APPLY.md)</strong> · <strong>[오류·번역 제보](https://github.com/lf-idonotknow/Gyakuten-Saiban-1-NDS-Korean-Patch/issues/new/choose)</strong>
+
+## 0.9.1 수정 내용
+
+- 초반 얏파리 설명 대사의 줄바꿈 오류와 화면 하단 잘림을 수정했습니다.
 
 ## 한글화 내용
 
@@ -21,18 +25,20 @@
 |---|---|---|
 | 파일 형식 | `.nds` | `.nds` |
 | 크기 | 67,108,864바이트 (64MiB) | 134,217,728바이트 (128MiB) |
-| CRC32 | `1C725545` | `CFCD95B5` |
-| SHA-1 | `056070f41424f4a7f1613edcc97f4118db01c186` | `29720db4ef843933cd009e3dde8a58c742114c43` |
-| SHA-256 | `4640d5053a09eda925ac2452a32d7017a437956c6e039975db26b70f55121de0` | `1bd9b6e1c89175c7c1538958a6469f1ecb05c0a71751d3a9b8802ce2c1331873` |
+| CRC32 | `1C725545` | `A5523F95` |
+| SHA-1 | `056070f41424f4a7f1613edcc97f4118db01c186` | `b107e22e5dea329c23b9c7f7efd8e588f9dd3e76` |
+| SHA-256 | `4640d5053a09eda925ac2452a32d7017a437956c6e039975db26b70f55121de0` | `084dd8d26a826c4e96ecc12d448c16373927045d87391c24c682de2abd3069a0` |
 
 확인값(해시)은 파일의 내용을 식별하는 값입니다. 파일 이름이 달라도 확인값이 같으면 같은 원본입니다.
 
 ## 간단한 적용 순서
 
-1. <strong>[0.9.0 패치 ZIP](https://github.com/lf-idonotknow/Gyakuten-Saiban-1-NDS-Korean-Patch/releases/download/v0.9.0/Gyakuten-Saiban-1-NDS-Korean-Patch-v0.9.0.zip)</strong>을 받고 압축을 풉니다.
+0.9.0 이용자도 <strong>일본판 원본 ROM에 0.9.1 패치를 적용</strong>합니다. 기존 한글 ROM에 덧씌우는 패치가 아닙니다.
+
+1. <strong>[0.9.1 패치 ZIP](https://github.com/lf-idonotknow/Gyakuten-Saiban-1-NDS-Korean-Patch/releases/download/v0.9.1/Gyakuten-Saiban-1-NDS-Korean-Patch-v0.9.1.zip)</strong>을 받고 압축을 풉니다.
 2. [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/)를 엽니다. 프로그램 설치 없이 컴퓨터의 웹 브라우저에서 적용할 수 있습니다.
 3. <strong>ROM file:</strong>에 일본판 원본 `.nds`를 선택합니다. CRC32가 <strong>`1C725545`</strong>인지 확인합니다.
-4. <strong>Patch file:</strong>에 압축을 푼 `Gyakuten-Saiban-1-NDS-Korean-Patch-v0.9.0.bps`를 선택합니다.
+4. <strong>Patch file:</strong>에 압축을 푼 `Gyakuten-Saiban-1-NDS-Korean-Patch-v0.9.1.bps`를 선택합니다.
 5. <strong>Apply patch</strong>를 누르고 새 `.nds` 파일을 저장합니다. <strong>Settings → Fix ROM checksum</strong>은 꺼 둡니다.
 6. 새 `.nds`를 melonDS에서 열거나 플래시카드의 게임 폴더에 복사해 닌텐도 DS에서 실행합니다.
 
@@ -40,7 +46,7 @@
 
 ## 구동 확인
 
-<strong>에뮬레이터 melonDS와 닌텐도 DS 실기에서 구동을 확인했습니다.</strong> 실기는 보유한 기기 3개·플래시카드 3개·microSD 카드 3개에서 확인했습니다. 자세한 [검증 정보와 세이브 안내](docs/VERIFICATION.md)를 참고하세요.
+0.9.1은 <strong>melonDS에서 부팅과 제1화의 수정 장면 및 앞뒤 대사 진행</strong>을 확인했습니다. 닌텐도 DS 실기 구동은 0.9.0에서 보유 기기·플래시카드·microSD 카드 각각 3개로 확인했으며, <strong>0.9.1의 실기 재확인은 아직 하지 않았습니다.</strong> 자세한 [검증 정보와 세이브 안내](docs/VERIFICATION.md)를 참고하세요.
 
 기존 세이브는 먼저 백업해 주세요. 세이브의 파일명과 저장 위치는 사용 중인 플래시카드·에뮬레이터의 규칙을 따릅니다.
 

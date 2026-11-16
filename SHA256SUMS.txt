@@ -1,3 +1,3 @@
-1c4e741fa05cdf0999796a8325cbb00184df9ee3ce6e8e702110c1d36c743ff5  Gyakuten-Saiban-1-NDS-Korean-Patch-v0.9.0.bps
-1c603d688cdf276dc318ca63718f366ceb049c9aad7b366990ac90684bf314ff  Gyakuten-Saiban-1-NDS-Korean-Patch-v0.9.0.zip
-35520544b971e3044d41327bb55a41e3c9ca8ff5158c5ba080421e52d4d21956  manifest.json
+3a5e6cad2cb55242627bc9dda46508c6e7ebd82e7ff5bd1eb56fd2959da53bcf  Gyakuten-Saiban-1-NDS-Korean-Patch-v0.9.1.bps
+092cddc877ef3f981f8bfedc47b5d2c7ca91d682941bbc7214a53f020efb3efc  Gyakuten-Saiban-1-NDS-Korean-Patch-v0.9.1.zip
+6ae6491550aabf5bd827418cfbcc0f7c8d4dcaa69fdddfcd59d3d182d45b83c2  manifest.json
