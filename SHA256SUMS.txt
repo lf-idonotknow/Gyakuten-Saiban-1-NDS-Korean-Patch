@@ -1,0 +1,2 @@
+# 배포용 BPS와 ZIP의 SHA-256은 패치 제작·검증 후 기록합니다.
+# 원본 및 결과 기준 ROM의 확인값은 README.md와 manifest.json에 있습니다.

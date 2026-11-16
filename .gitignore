@@ -1,0 +1,23 @@
+# Game images, saves and local development outputs
+*.nds
+*.sav
+*.dsv
+*.state
+*.state.*
+*.ml[0-9]*
+*.bin
+*.rom
+*.dmp
+*.bps
+*.zip
+*.7z
+*.tar
+*.gz
+build/
+evidence/
+original/
+원본/
+.DS_Store
+._*
+__MACOSX/
+__pycache__/

@@ -1,0 +1,13 @@
+The following notices are copied from the name table of the NeoDunggeunmoPro-Regular.ttf used by this project.
+
+Original font was released under the public domain by Jungtae Kim in 1990s. Conversion and additional character design by Dalgona. <me@dalgona.dev>
+
+This font software may be used, studied, modified, embedded and redistributed under the SIL Open Font License 1.1.
+
+https://scripts.sil.org/OFL
+
+원본 글꼴은 1990년대에 김중태 한글문화원 원장에 의해 퍼블릭 도메인으로 공개되었습니다. 변환 및 추가적인 문자 디자인: Dalgona. <me@dalgona.dev>
+
+이 폰트 소프트웨어는 SIL Open Font License 1.1에서 허용하는 범위 내에서 사용, 연구, 수정, 임베드 및 재배포될 수 있습니다.
+
+The complete SIL Open Font License 1.1 is provided in SIL-OFL-1.1.txt.

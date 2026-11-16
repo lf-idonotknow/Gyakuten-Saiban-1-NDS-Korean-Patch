@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "game": {
+    "title": "역전재판 소생하는 역전",
+    "platform": "Nintendo DS",
+    "region": "Japan",
+    "game_code": "AGYJ",
+    "revision": 0
+  },
+  "release_status": "preparing",
+  "version": null,
+  "development_revision": "r117",
+  "source": {
+    "size": 67108864,
+    "crc32": "1C725545",
+    "sha1": "056070f41424f4a7f1613edcc97f4118db01c186",
+    "sha256": "4640d5053a09eda925ac2452a32d7017a437956c6e039975db26b70f55121de0"
+  },
+  "target": {
+    "size": 134217728,
+    "crc32": "CFCD95B5",
+    "sha1": "29720db4ef843933cd009e3dde8a58c742114c43",
+    "sha256": "1bd9b6e1c89175c7c1538958a6469f1ecb05c0a71751d3a9b8802ce2c1331873"
+  },
+  "patch": null,
+  "planned_patch_format": "BPS",
+  "distribution_archive": null,
+  "verification": {
+    "patch_application_verified": false,
+    "hardware": {
+      "status": "user_reported_success",
+      "reported_on": "2026-11-16",
+      "device_count": 3,
+      "flashcart_count": 3,
+      "microSD_count": 3,
+      "all_27_combinations_tested": null,
+      "observation": "보유 기기·플래시카드·microSD 각각 3개에서 구동 성공",
+      "previous_SD_normalized_after": "macOS 생성 파일 등을 정리하고 Windows에서 ROM을 복사한 뒤 정상화",
+      "cause_confirmed": false
+    },
+    "local_runtime": "first_dialogue_record_open_close_next_dialogue",
+    "full_story_playthrough_verified": false
+  },
+  "repository": "https://github.com/lf-idonotknow/Gyakuten-Saiban-1-NDS-Korean-Patch"
+}

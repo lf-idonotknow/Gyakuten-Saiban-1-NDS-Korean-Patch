@@ -1,0 +1,31 @@
+name: 진행·화면 오류
+description: 게임 진행, 글자 출력, 패치 적용 문제를 알려 주세요.
+body:
+  - type: input
+    id: version
+    attributes:
+      label: 패치 버전
+      placeholder: 배포 버전 또는 사용한 개발판 번호를 적어 주세요.
+    validations:
+      required: true
+  - type: input
+    id: scene
+    attributes:
+      label: 에피소드와 장면
+      placeholder: 몇 화인지, 장소와 대화 상대를 적어 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: 문제 현상과 재현 순서
+      description: 직전에 한 조작과 화면 사진을 함께 남겨 주세요. 게임 ROM이나 BIOS는 첨부하지 마세요.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 사용 환경
+      placeholder: 닌텐도 DS 기종·플래시카드·커널, 또는 에뮬레이터 이름과 버전을 적어 주세요.
+    validations:
+      required: true
