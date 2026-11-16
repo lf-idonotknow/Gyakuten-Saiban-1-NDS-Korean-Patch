@@ -1,10 +1,8 @@
-# 역전재판 소생하는 역전 한국어 패치
+# 역전재판 소생하는 역전 한국어 패치 0.9.0
 
-《역전재판 소생하는 역전》 **Nintendo DS 일본판**의 비공식 한국어 패치입니다.
+《역전재판 소생하는 역전》 <strong>Nintendo DS 일본판</strong>의 비공식 한국어 패치입니다. <strong>0.9.0은 첫 공개판</strong>입니다.
 
-**현재 첫 공개용 패치를 준비하고 있습니다.** 저장소의 안내와 제보 양식을 먼저 공개했으며, BPS와 배포 ZIP은 아직 등록하지 않았습니다.
-
-**[릴리스 페이지](https://github.com/lf-idonotknow/Gyakuten-Saiban-1-NDS-Korean-Patch/releases)** · **[적용 안내](docs/APPLY.md)** · **[오류·번역 제보](https://github.com/lf-idonotknow/Gyakuten-Saiban-1-NDS-Korean-Patch/issues/new/choose)**
+<strong>[0.9.0 패치 ZIP 다운로드](https://github.com/lf-idonotknow/Gyakuten-Saiban-1-NDS-Korean-Patch/releases/download/v0.9.0/Gyakuten-Saiban-1-NDS-Korean-Patch-v0.9.0.zip)</strong> · <strong>[처음 하는 분을 위한 적용 안내](docs/APPLY.md)</strong> · <strong>[오류·번역 제보](https://github.com/lf-idonotknow/Gyakuten-Saiban-1-NDS-Korean-Patch/issues/new/choose)</strong>
 
 ## 한글화 내용
 
@@ -17,11 +15,9 @@
 
 ## 준비물과 적용 대상
 
-**일본판 / 게임 코드 `AGYJ` / 리비전 `0`**의 수정하지 않은 원본 `.nds`가 필요합니다. 파일 이름보다 아래 크기와 확인값을 기준으로 판본을 확인해 주세요.
+본인이 보유한 <strong>일본판 원본 `.nds`</strong>와 위 링크의 패치 ZIP이 필요합니다. 지원 판본은 <strong>게임 코드 `AGYJ` / 리비전 `0`</strong>입니다.
 
-아래 적용 결과는 배포용 패치 제작 기준으로 고정한 r117 파일입니다. 실제 BPS를 적용해 같은 결과가 나오는지 확인하는 작업은 패치 제작 단계에서 진행합니다.
-
-| 항목 | 지원 원본 | 적용 결과 기준 |
+| 항목 | 지원 원본 | 패치 적용 후 |
 |---|---|---|
 | 파일 형식 | `.nds` | `.nds` |
 | 크기 | 67,108,864바이트 (64MiB) | 134,217,728바이트 (128MiB) |
@@ -29,17 +25,24 @@
 | SHA-1 | `056070f41424f4a7f1613edcc97f4118db01c186` | `29720db4ef843933cd009e3dde8a58c742114c43` |
 | SHA-256 | `4640d5053a09eda925ac2452a32d7017a437956c6e039975db26b70f55121de0` | `1bd9b6e1c89175c7c1538958a6469f1ecb05c0a71751d3a9b8802ce2c1331873` |
 
-## 적용 방법
+확인값(해시)은 파일의 내용을 식별하는 값입니다. 파일 이름이 달라도 확인값이 같으면 같은 원본입니다.
 
-배포 예정 형식은 BPS입니다. 릴리스에 패치가 등록된 뒤 [상세 적용 안내](docs/APPLY.md)에 따라 원본 `.nds`와 `.bps`를 선택해 새 `.nds`를 생성하는 방식으로 적용합니다.
+## 간단한 적용 순서
 
-GitHub가 자동으로 표시하는 `Source code (zip)`은 패치 다운로드가 아닙니다. 패치 공개 후에는 릴리스에 별도로 첨부하는 배포 ZIP을 받아 주세요.
+1. <strong>[0.9.0 패치 ZIP](https://github.com/lf-idonotknow/Gyakuten-Saiban-1-NDS-Korean-Patch/releases/download/v0.9.0/Gyakuten-Saiban-1-NDS-Korean-Patch-v0.9.0.zip)</strong>을 받고 압축을 풉니다.
+2. [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/)를 엽니다. 프로그램 설치 없이 컴퓨터의 웹 브라우저에서 적용할 수 있습니다.
+3. <strong>ROM file:</strong>에 일본판 원본 `.nds`를 선택합니다. CRC32가 <strong>`1C725545`</strong>인지 확인합니다.
+4. <strong>Patch file:</strong>에 압축을 푼 `Gyakuten-Saiban-1-NDS-Korean-Patch-v0.9.0.bps`를 선택합니다.
+5. <strong>Apply patch</strong>를 누르고 새 `.nds` 파일을 저장합니다. <strong>Settings → Fix ROM checksum</strong>은 꺼 둡니다.
+6. 새 `.nds`를 melonDS에서 열거나 플래시카드의 게임 폴더에 복사해 닌텐도 DS에서 실행합니다.
 
-## 확인 범위와 세이브
+파일 선택부터 화면 예시까지 설명한 <strong>[상세 적용 안내](docs/APPLY.md)</strong>를 참고하세요. GitHub가 자동으로 표시하는 `Source code (zip)`은 패치 다운로드가 아닙니다.
 
-2026년 11월 16일, 제작자가 보유한 **닌텐도 DS 기기 3개·플래시카드 3개·microSD 카드 3개에서 r117 구동 성공을 확인**했습니다. 전체 진행·에뮬레이터 검사·세이브 안내는 [검증 정보](docs/VERIFICATION.md)에 정리했습니다.
+## 구동 확인
 
-기존 세이브는 먼저 별도로 백업해 주세요. 플래시카드마다 저장 형식과 위치가 다를 수 있으므로 해당 실행 환경의 규칙에 맞춰 사용해야 합니다.
+<strong>에뮬레이터 melonDS와 닌텐도 DS 실기에서 구동을 확인했습니다.</strong> 실기는 보유한 기기 3개·플래시카드 3개·microSD 카드 3개에서 확인했습니다. 자세한 [검증 정보와 세이브 안내](docs/VERIFICATION.md)를 참고하세요.
+
+기존 세이브는 먼저 백업해 주세요. 세이브의 파일명과 저장 위치는 사용 중인 플래시카드·에뮬레이터의 규칙을 따릅니다.
 
 ## 제작 및 출처
 
@@ -47,4 +50,4 @@ GitHub가 자동으로 표시하는 `Source code (zip)`은 패치 다운로드�
 
 ## 제보
 
-[Issues](https://github.com/lf-idonotknow/Gyakuten-Saiban-1-NDS-Korean-Patch/issues/new/choose)에서 **진행·화면 오류** 또는 **오타·번역 수정** 양식을 선택해 주세요. 패치 버전, 에피소드·장면, 재현 순서와 화면 사진을 함께 남겨 주세요. 게임 ROM이나 BIOS는 첨부하지 마세요.
+[Issues](https://github.com/lf-idonotknow/Gyakuten-Saiban-1-NDS-Korean-Patch/issues/new/choose)에서 <strong>진행·화면 오류</strong> 또는 <strong>오타·번역 수정</strong> 양식을 선택해 주세요. 패치 버전, 에피소드·장면, 재현 순서와 화면 사진을 함께 남겨 주세요. 게임 ROM이나 BIOS는 첨부하지 마세요.

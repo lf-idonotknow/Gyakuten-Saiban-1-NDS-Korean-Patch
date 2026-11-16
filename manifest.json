@@ -7,8 +7,8 @@
     "game_code": "AGYJ",
     "revision": 0
   },
-  "release_status": "preparing",
-  "version": null,
+  "release_status": "released",
+  "version": "0.9.0",
   "development_revision": "r117",
   "source": {
     "size": 67108864,
@@ -22,11 +22,18 @@
     "sha1": "29720db4ef843933cd009e3dde8a58c742114c43",
     "sha256": "1bd9b6e1c89175c7c1538958a6469f1ecb05c0a71751d3a9b8802ce2c1331873"
   },
-  "patch": null,
+  "patch": {
+    "filename": "Gyakuten-Saiban-1-NDS-Korean-Patch-v0.9.0.bps",
+    "format": "BPS",
+    "size": 2378466,
+    "sha256": "1c4e741fa05cdf0999796a8325cbb00184df9ee3ce6e8e702110c1d36c743ff5"
+  },
   "planned_patch_format": "BPS",
-  "distribution_archive": null,
+  "distribution_archive": {
+    "filename": "Gyakuten-Saiban-1-NDS-Korean-Patch-v0.9.0.zip"
+  },
   "verification": {
-    "patch_application_verified": false,
+    "patch_application_verified": true,
     "hardware": {
       "status": "user_reported_success",
       "reported_on": "2026-11-16",
@@ -39,7 +46,13 @@
       "cause_confirmed": false
     },
     "local_runtime": "first_dialogue_record_open_close_next_dialogue",
-    "full_story_playthrough_verified": false
+    "full_story_playthrough_verified": false,
+    "byte_identical_to_fixed_target": true,
+    "browser_application_verified": true,
+    "emulator": {
+      "name": "melonDS",
+      "status": "boot_and_early_progress_verified"
+    }
   },
   "repository": "https://github.com/lf-idonotknow/Gyakuten-Saiban-1-NDS-Korean-Patch"
 }

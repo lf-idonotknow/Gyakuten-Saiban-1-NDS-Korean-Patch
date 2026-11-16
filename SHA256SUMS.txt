@@ -1,2 +1,3 @@
-# 배포용 BPS와 ZIP의 SHA-256은 패치 제작·검증 후 기록합니다.
-# 원본 및 결과 기준 ROM의 확인값은 README.md와 manifest.json에 있습니다.
+1c4e741fa05cdf0999796a8325cbb00184df9ee3ce6e8e702110c1d36c743ff5  Gyakuten-Saiban-1-NDS-Korean-Patch-v0.9.0.bps
+1c603d688cdf276dc318ca63718f366ceb049c9aad7b366990ac90684bf314ff  Gyakuten-Saiban-1-NDS-Korean-Patch-v0.9.0.zip
+35520544b971e3044d41327bb55a41e3c9ca8ff5158c5ba080421e52d4d21956  manifest.json
